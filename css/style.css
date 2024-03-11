@@ -1,0 +1,61 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 700px;
+    margin-left: 23rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+
+}
+#draw{
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.palette{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    gap: 2rem;
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.black{
+background-color: black;
+}
+
+.blue{
+background-color: blue;
+}
+
+.red{
+background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
